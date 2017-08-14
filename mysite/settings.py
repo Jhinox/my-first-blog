@@ -13,9 +13,6 @@ https://docs.djangoproject.com/en/1.10/ref/settings/
 import os
 import dj_database_url
 
-
-settings.configure()
-
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -29,7 +26,8 @@ SECRET_KEY = ')5*n05&6yedee1q97)wvy#vhp#)3^hivt*bylz%)u-a4yl6e1d'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '<your_username>.pythonanywhere.com', 'talaatashraf.pythonanywhere.com', 'localhost']
+ALLOWED_HOSTS = ['127.0.0.1', '<your_username>.pythonanywhere.com', 'talaatashraf.pythonanywhere.com', 'localhost',
+'whispering-wildwood-88997.herokuapp.com']
 
 
 # Application definition
